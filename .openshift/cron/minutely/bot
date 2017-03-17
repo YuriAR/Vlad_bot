@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "************ Cronny Started ***************"
+pkill -f vlad_bot.py
+pkill -f "python vlad_bot.py"
+source ${OPENSHIFT_HOMEDIR}/python/virtenv/bin/activate
+python /var/lib/openshift/573f29582d52714be30000dd/app-root/repo/vlad_bot.py
+
+echo "************ Cronny Executed ***************"
+
