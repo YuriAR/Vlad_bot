@@ -25,7 +25,7 @@ def handle(msg):
     if command == '/vlad' or command == '/vlad@vlademeeer_bot':
     	bot.sendMessage(chat_id, response[op])
     if command == '/mito' or command == '/mito@vlademeeer_bot':
-        img = random.randint(1,80);
+        img = random.randint(1,95);
         if os.path.exists('/var/lib/openshift/573f29582d52714be30000dd/app-root/repo/images/vlad%d.jpg' % img):
             f = open('/var/lib/openshift/573f29582d52714be30000dd/app-root/repo/images/vlad%d.jpg' % img, 'rb')
             bot.sendPhoto(chat_id, f)
@@ -42,6 +42,12 @@ def handle(msg):
         bot.sendMessage(chat_id, "Algo de errado não está certo, cadê a pergunta?")
     elif '/askvlad' in command:
         bot.sendMessage(chat_id, responseAsk[opAsk])
+	if command == '/diz' or command == '/diz@vlademeeer_bot':
+		aud = random.randint(1,15);
+		if os.path.exists('/var/lib/openshift/573f29582d52714be30000dd/app-root/repo/sound/vlad%d.ogg' % aud):
+            f = open('/var/lib/openshift/573f29582d52714be30000dd/app-root/repo/sound/vlad%d.ogg' % aud, 'rb')
+            bot.sendAudio(chat_id, f)
+            f.close();
     # Do your stuff here ...
 
 
