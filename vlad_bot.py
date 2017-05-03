@@ -16,7 +16,7 @@ def handle(msg):
     response = ["Risos", "Hausha7hausua7e","Calma","Nossa","Você tá bem, cara?", "Uia", "Te fode carlos", ".", "Egua" , "Nao ma", "Bacana", "Essa fera", "Que loucura", "O loco bichow", "Tenso", "Diz", "Rs", "E foi indo e foi indo... E tamo aqui agora", "Meu nome é Vladimir Lima tenho 24 anos, faço cerveja, ando de bicicleta e só", "Complicado esse humor", "boa", "Esse tempo todo?" ]
     responseAsk = ["Não sei, foda-se", "Que pergunta bosta, em? Vai se fuder", "Não, te fode", "Provavelmente nao em...", "Olha, eu acho que sim em...", "Dificil isso...", "Olha, talvez", "Sim! AEAEAEAEA!"]
     if command == '@vlademeeer_bot':
-    	bot.sendMessage(chat_id, "Cara, até agora só tem o /vlad , o /askvlad, o /mito e o /calma")
+    	bot.sendMessage(chat_id, "Vlad Bot v1 (beta)\nCOMANDOS:\n/vlad - Frases épicas do mito!\n/askvlad - Pergunte qualquer coisa para o mito!\n/mito - Fotos sensacionais do mito!\n/calma - Calma\n\n\nDeveloped by: Yuri Reis / Bruno Monteiro")
     if command == '/calma' or command == '/calma@vlademeeer_bot':
         f = open('/var/lib/openshift/573f29582d52714be30000dd/app-root/repo/calma.jpg', 'rb') 
         bot.sendPhoto(chat_id, f)
