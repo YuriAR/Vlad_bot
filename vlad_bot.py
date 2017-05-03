@@ -11,7 +11,7 @@ def handle(msg):
     chat_id = msg['chat']['id']
     command = msg['text']
 
-    op = random.randint(0,17);
+    op = random.randint(0,21);
     opAsk = random.randint(0,7);
     response = ["Risos", "Hausha7hausua7e","Calma","Nossa","Você tá bem, cara?", "Uia", "Te fode carlos", ".", "Egua" , "Nao ma", "Bacana", "Essa fera", "Que loucura", "O loco bichow", "Tenso", "Diz", "Rs", "E foi indo e foi indo... E tamo aqui agora", "Meu nome é Vladimir Lima tenho 24 anos, faço cerveja, ando de bicicleta e só", "Complicado esse humor", "boa", "Esse tempo todo?" ]
     responseAsk = ["Não sei, foda-se", "Que pergunta bosta, em? Vai se fuder", "Não, te fode", "Provavelmente nao em...", "Olha, eu acho que sim em...", "Dificil isso...", "Olha, talvez", "Sim! AEAEAEAEA!"]
