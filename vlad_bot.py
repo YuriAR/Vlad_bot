@@ -48,7 +48,7 @@ def handle(msg):
             f = open('/var/lib/openshift/573f29582d52714be30000dd/app-root/repo/sound/vlad%d.ogg' % aud, 'rb')
             bot.sendAudio(chat_id, f)
             f.close();
-    # Do your stuff here ...
+    # Do your stuff here ....
 
 
 # Getting the token from command-line is better than embedding it in code,
