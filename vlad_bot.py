@@ -18,37 +18,41 @@ def handle(msg):
     if command == '@vlademeeer_bot':
     	bot.sendMessage(chat_id, "Vlad Bot v1 (beta)\nCOMANDOS:\n/vlad - Frases épicas do mito!\n/askvlad - Pergunte qualquer coisa para o mito!\n/mito - Fotos sensacionais do mito!\n/calma - Calma\n/diz - Aúdios DO CARALHO PORRA\n\n\nDeveloped by: Yuri Reis / Bruno Monteiro")
     if command == '/calma' or command == '/calma@vlademeeer_bot':
+        print ('Sending calma ...')
         f = open('/var/lib/openshift/573f29582d52714be30000dd/app-root/repo/calma.jpg', 'rb') 
         bot.sendPhoto(chat_id, f)
     if command == '/teste':
         bot.sendMessage(chat_id, "testeUpdate")
     if command == '/vlad' or command == '/vlad@vlademeeer_bot':
+        print ('Sending msg ...')
     	bot.sendMessage(chat_id, response[op])
     if command == '/mito' or command == '/mito@vlademeeer_bot':
+        print ('Sending photo ...')
         img = random.randint(1,95);
         if os.path.exists('/var/lib/openshift/573f29582d52714be30000dd/app-root/repo/images/vlad%d.jpg' % img):
             f = open('/var/lib/openshift/573f29582d52714be30000dd/app-root/repo/images/vlad%d.jpg' % img, 'rb')
             bot.sendPhoto(chat_id, f)
-            f.close();
+            f.close()
         elif os.path.exists('/var/lib/openshift/573f29582d52714be30000dd/app-root/repo/images/vlad%d.jpeg' % img):
             f = open('/var/lib/openshift/573f29582d52714be30000dd/app-root/repo/images/vlad%d.jpeg' % img, 'rb')
             bot.sendPhoto(chat_id, f)
-            f.close();
+            f.close()
         else:
             f = open('/var/lib/openshift/573f29582d52714be30000dd/app-root/repo/images/vlad%d.png' % img, 'rb')
             bot.sendPhoto(chat_id, f)
-            f.close();
+            f.close()
     if command == '/askvlad' or command == '/askvlad@vlademeeer_bot':
         bot.sendMessage(chat_id, "Algo de errado não está certo, cadê a pergunta?")
     elif '/askvlad' in command:
+        print ('Sending answer ...')
         bot.sendMessage(chat_id, responseAsk[opAsk])
-	if command == '/diz' or command == '/diz@vlademeeer_bot':
-		aud = random.randint(1,15);
-		if os.path.exists('/var/lib/openshift/573f29582d52714be30000dd/app-root/repo/sound/vlad%d.mp3' % aud):
-			f = open('/var/lib/openshift/573f29582d52714be30000dd/app-root/repo/sound/vlad%d.mp3' % aud, 'rb')
-			bot.sendAudio(chat_id, f)
-			f.close();
-    # Do your stuff here ....
+    if command == '/diz' or command == '/diz@vlademeeer_bot':
+        aud = random.randint(1,15)
+        if os.path.exists('/var/lib/openshift/573f29582d52714be30000dd/app-root/repo/sound/vlad%d.mp3' % aud):
+            f = open('/var/lib/openshift/573f29582d52714be30000dd/app-root/repo/sound/vlad%d.mp3' % aud, 'rb')
+            bot.sendMessage(chat_id, 'Bicho, mandei um áudio aí, mas demora um pouquinho...')
+            bot.sendAudio(chat_id, f)
+            f.close()
 
 
 # Getting the token from command-line is better than embedding it in code,
