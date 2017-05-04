@@ -45,9 +45,9 @@ def handle(msg):
 	if command == '/diz' or command == '/diz@vlademeeer_bot':
 		aud = random.randint(1,15);
 		if os.path.exists('/var/lib/openshift/573f29582d52714be30000dd/app-root/repo/sound/vlad%d.ogg' % aud):
-            f = open('/var/lib/openshift/573f29582d52714be30000dd/app-root/repo/sound/vlad%d.ogg' % aud, 'rb')
-            bot.sendAudio(chat_id, f)
-            f.close();
+			f = open('/var/lib/openshift/573f29582d52714be30000dd/app-root/repo/sound/vlad%d.ogg' % aud, 'rb')
+			bot.sendAudio(chat_id, f)
+			f.close();
     # Do your stuff here ....
 
 
