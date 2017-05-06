@@ -20,5 +20,5 @@ Basta adicionar @vlademeeer_bot no seu grupo e partir pro abraço
 ## Desenvolvedores:
 *Yuri Reis - Mestre supremo e idealizador da caralha do bot*
 
-*Bruno Monteiro - Ajudou com um mero if que sequer funcionou*
+*Bruno Monteiro - Ajudou com um mero if que sequer funcionou e adiciona uns áudios e fotos aí*
 
