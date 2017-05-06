@@ -1,24 +1,22 @@
-# A basic Flask quickstart 
-*With support for serving easy APIs and static content*
+# Vlad Bot
+*Telegram bot using [telepot API](https://github.com/nickoala/telepot)*
 
-[![Build Status](http://img.shields.io/travis/ryanj/flask-base.svg)](https://travis-ci.org/ryanj/flask-base) [![Deploy](https://img.shields.io/badge/Launch_on-OpenShift-brightgreen.svg)](https://openshift.redhat.com/app/console/application_type/custom?cartridges%5B%5D=python-2&initial_git_url=https%3A%2F%2Fgithub.com%2Fryanj%2Fflask-base.git&name=flask)
+O bot mais amado do Telegram <3
 
-[![Launch on OpenShift](http://launch-shifter.rhcloud.com/button.svg)](https://openshift.redhat.com/app/console/application_type/custom?cartridges%5B%5D=python-2.7&initial_git_url=https%3A%2F%2Fgithub.com%2Fryanj%2Fflask-base.git&name=flask)
+![HOMÃO DA PORRA](https://github.com/YuriAR/Vlad_bot/blob/master/images/vlad85.jpg?raw=true)
 
-To deploy a clone of this application using the [`rhc` command line tool](http://rubygems.org/gems/rhc):
-
-    rhc app create flask python-2.7 --from-code=https://github.com/ryanj/flask-base.git
-    
-Or [link to a web-based clone+deploy](https://openshift.redhat.com/app/console/application_type/custom?cartridges%5B%5D=python-2.7&initial_git_url=https%3A%2F%2Fgithub.com%2Fryanj%2Fflask-base.git) on [OpenShift Online](http://OpenShift.com) or on [your own OpenShift cloud](http://openshift.github.io): 
-
-    https://openshift.redhat.com/app/console/application_type/custom?cartridges%5B%5D=python-2.7&initial_git_url=https%3A%2F%2Fgithub.com%2Fryanj%2Fflask-base.git
-
-## Local server
-Start a local webserver by running:
-
+## Comandos
 ```bash
-python app.py
+/vlad - faço um comentário extremamente enriquecedor para a conversa
+/askvlad - respostas honestas para qualquer pergunta
+/mito - minhas fotos sensuais que levam até homens a loucura
+/calma - CALMA SENHORA
+/diz - minha voz inconfundível pra vc se deliciar
 ```
 
-## License
-This code is dedicated to the public domain to the maximum extent permitted by applicable law, pursuant to CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
+## Adicionando ao seu grupitcho
+Basta adicionar @vlademeeer_bot no seu grupo e partir pro abraço
+
+## Desenvolvedores:
+*Yuri Reis - Mestre supremo e idealizador da caralha do bot*
+*Bruno Monteiro - Ajudou com um mero if que sequer funcionou*
