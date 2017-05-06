@@ -28,7 +28,7 @@ def handle(msg):
     opAsk = random.randint(0,len(responseAsk));
     
     if command == '/help' or command == '/help@vlademeeer_bot':
-    	bot.sendMessage(chat_id, "Vlad Bot v1 (beta)\n\nBicho, a minha cabeça é difícil de entender. Da pra explicar não, foi mal. MAAAS, tem uns comandos bacanas aí oh...\n\n/vlad - faço um comentário extremamente enriquecedor para a conversa\n/askvlad - respostas honestas para qualquer pergunta\n/mito - minhas fotos sensuais que levam até homens a loucura\n/calma - CALMA SENHORA\n/diz - minha voz inconfundível pra vc se deliciar\n\n\nDeveloped by: Yuri Reis / Bruno Monteiro (Só fez um IF.. HEAUDHSADSDSDCVVFLFLFFL te amo cara)")
+    	bot.sendMessage(chat_id, "Vlad Bot v2 (beta)\n\nBicho, a minha cabeça é difícil de entender. Da pra explicar não, foi mal. MAAAS, tem uns comandos bacanas aí oh...\n\n/vlad - faço um comentário extremamente enriquecedor para a conversa\n/askvlad - respostas honestas para qualquer pergunta\n/mito - minhas fotos sensuais que levam até homens a loucura\n/calma - CALMA SENHORA\n/diz - minha voz inconfundível pra vc se deliciar\n\n\nDeveloped by: Yuri Reis / Bruno Monteiro (Só fez um IF.. HEAUDHSADSDSDCVVFLFLFFL te amo cara)")
     if command == '/calma' or command == '/calma@vlademeeer_bot':
         print ('Sending calma ...')
         f = open('/var/lib/openshift/573f29582d52714be30000dd/app-root/repo/calma.jpg', 'rb') 
