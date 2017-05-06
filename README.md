@@ -18,7 +18,7 @@ O bot mais amado do Telegram <3
 Basta adicionar @vlademeeer_bot no seu grupo e partir pro abraço
 
 ## Desenvolvedores:
-*Yuri Reis - Mestre supremo e idealizador da caralha do bot*
+*Yuri "πrok" Reis - Mestre supremo e idealizador da caralha do bot*
 
-*Bruno Monteiro - Ajudou com um mero if que sequer funcionou e adiciona uns áudios e fotos aí*
+*Bruno "TioBala" Monteiro - Ajudou com um mero if que sequer funcionou e adiciona uns áudios e fotos aí*
 
