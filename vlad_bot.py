@@ -11,6 +11,7 @@ from collections import deque
 def handle(msg):
     chat_id = msg['chat']['id']
     command = msg['text']
+    q = deque(maxlen=10)
 
     print ('Command received ... %s', command)
 
